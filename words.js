@@ -29,7 +29,7 @@ export class words extends plugin {
 	async tell(e) {
 		if (e.at) {
 			let num = Math.floor(100 + Math.random() * 899)
-			e.reply([segment.at(e.ta), `我宣布，你是在我最无能为力的年纪，遇到的最想守护一生的第{$num}个女孩子`])
+			e.reply([segment.at(e.ta), `我宣布，你是在我最无能为力的年纪，遇到的最想守护一生的第${num}个女孩子`])
 		}
 		
 	}
